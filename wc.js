@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
             content += '<img src="';
             content += pre_img_url;
             content += pick[i]['abbr'];
-            content += post_img_url;
+            //content += post_img_url;
             content += '" />&nbsp;&nbsp;&nbsp;&nbsp;';
             content += '(' + pick[i]['seed'] + ')&nbsp;';
             content += pick[i]['name'];
