@@ -5,7 +5,7 @@ const title = "FIFA World Cup 2026";
 const form_url = "https://docs.google.com/forms/d/e/1FAIpQLScj8X4T6VIKnp8A2L2LOMeX5YtbsQkxZ9mUq-bjJEpFUQplbQ/formResponse?usp=pp_url&";
 
 const pre_img_url = "https://api.fifa.com/api/v3/picture/flags-sq-2/";
-const post_img_url = ".svg";
+const post_img_url = "";
 
 const teams = [
     [{name: "Germany", seed: 10, abbr: "GER"}],
