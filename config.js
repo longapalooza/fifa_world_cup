@@ -4,7 +4,7 @@ const title = "FIFA World Cup 2026";
 
 const form_url = "https://docs.google.com/forms/d/e/1FAIpQLScj8X4T6VIKnp8A2L2LOMeX5YtbsQkxZ9mUq-bjJEpFUQplbQ/formResponse?usp=pp_url&";
 
-const pre_img_url = "https://longapalooza.github.io/fifa_world_cup/";
+const pre_img_url = "https://longapalooza.github.io/fifa_world_cup/imgs/";
 const post_img_url = ".svg";
 
 const teams = [
