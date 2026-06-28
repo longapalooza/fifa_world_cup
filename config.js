@@ -1,4 +1,4 @@
-const close_time = new Date(new Date('2026-06-28 13:00').toLocaleString('en', {timeZone: 'America/Chicago'}));
+const close_time = new Date(new Date('2026-06-28 14:00').toLocaleString('en', {timeZone: 'America/Chicago'}));
 
 const title = "FIFA World Cup 2026";
 
