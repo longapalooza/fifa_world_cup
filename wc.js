@@ -1,21 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     let current_time = new Date();
-	
-	document.getElementById('title').innerHTML = title
-	
-	const deadline = close_time.toLocaleString('en-US', {
-														  timeZone: 'America/Chicago',
-														  month: 'numeric',
-														  day: 'numeric',
-														  year: 'numeric',
-														  hour: 'numeric',
-														  minute: '2-digit',
-														  hour12: true,
-														  timeZoneName: 'short'
-														}).replace(',', '');
-	
-	document.getElementById('close_time').innerHTML = deadline
-	
+    
+    document.getElementById('title').innerHTML = title
+    
+    const deadline = close_time.toLocaleString('en-US', {
+                                                          timeZone: 'America/Chicago',
+                                                          month: 'numeric',
+                                                          day: 'numeric',
+                                                          year: 'numeric',
+                                                          hour: 'numeric',
+                                                          minute: '2-digit',
+                                                          hour12: true,
+                                                          timeZoneName: 'short'
+                                                        }).replace(',', '');
+    
+    document.getElementById('close_time').innerHTML = deadline
+    
     if(current_time.getTime() < close_time.getTime()){
         var game_index = 0;
         var n_games = teams.length - 1;
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
             form.appendChild(subtitle);
 
             let submit = document.createElement('button');
-            submit.innerHTML = 'Submit to go mad!';
+            submit.innerHTML = 'Submit your picks!';
             submit.id = 'submit';
             form.appendChild(submit);
 
