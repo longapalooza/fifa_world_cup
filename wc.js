@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     document.getElementById('close_time').innerHTML = deadline
     
-    if(true || current_time.getTime() < close_time.getTime()){
+    if(current_time.getTime() < close_time.getTime()){
         var game_index = 0;
         var n_games = teams.length - 1;
 
